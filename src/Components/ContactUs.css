@@ -1,0 +1,59 @@
+.container {
+    /* border: 1px solid red; */
+    display: block;
+    margin: 3rem auto;
+    width: 80% !important;
+    border-radius: 10px;
+    background-color: ghostwhite;
+    padding: 10px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.form {
+    margin-top: 0.5rem;
+    display: flex;
+    /* border: 1px solid red; */
+
+}
+
+Input {
+    width: 50vh !important;
+    /* border: 1px solid red !important; */
+    /* margin: 10px !important; */
+}
+
+.inputs {
+    /* border: 1px solid red !important; */
+    position: relative;
+    top: 5rem;
+    left: 4rem;
+}
+
+.textarea {
+    /* border: 1px solid red; */
+    align-self: center;
+    /* display: flex; */
+    position: relative;
+    left: 28rem;
+    top: -6rem;
+}
+
+textarea {
+    height: 30vh !important;
+    width: 90vh !important;
+    padding: 10px;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+.button {
+    float: right;
+    position: relative;
+    left: 25rem;
+    top: -30px;
+}

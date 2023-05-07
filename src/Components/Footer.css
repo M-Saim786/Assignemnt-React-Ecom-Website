@@ -1,0 +1,99 @@
+footer {
+    /* height: 26vh; */
+    position: sticky;
+    /* bottom: 0; */
+    width: 100%;
+    height: 70vh;
+    /* border: 1px solid red; */
+}
+
+.footUp {
+    background-color: #252626;
+    color: white;
+    height: 30vh;
+    padding: 10px;
+}
+
+.sidestyle {
+    /* border: 1px solid red; */
+    /* background-color: black; */
+    background-color: black;
+    height: 43vh;
+    width: 18%;
+    transform: rotate(46deg);
+    position: absolute;
+    /* left: 0; */
+    right: -80px;
+    top: 12px;
+    overflow: hidden !important;
+}
+
+
+.footDn {
+    background-color: #00cbcb;
+    height: 30vh;
+    z-index: 1 !important;
+    /* position: relative; */
+}
+
+.footerbtnDiv {
+    /* border: 1px solid red !important; */
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.footerUpBtn {
+    /* border: 1px solid red !important; */
+    border: 1px solid aqua !important;
+    color: aqua !important;
+    margin: 0 20px !important;
+}
+
+.contactUs__Ul {
+    /* border: 1px solid red; */
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    left: 18rem;
+    top: 1rem !important;
+    color: white;
+
+}
+
+.contactUs__Ul li {
+    font-size: 18px;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.contactUs__Ul li:hover {
+    color: black;
+}
+
+.copyrightDiv {
+    background-color: aqua;
+    /* text-align: center; */
+    height: 10vh;
+}
+
+.copyrightDiv p {
+    position: relative;
+    left: 2rem;
+    top: 20px;
+}
+
+.copyrightDiv ul {
+    display: inline-flex;
+    position: absolute;
+    list-style: none;
+    right: 5rem;
+    /* top: 10px; */
+    bottom: -20px;
+}
+.copyrightDiv ul li{
+    margin: 10px ;
+    padding: 10px 15px;
+    border-radius: 10px;
+    background-color: #00cbcb;
+}

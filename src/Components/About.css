@@ -1,0 +1,44 @@
+.Container {
+    background: transparent !important;
+}
+h6{
+    display: inline-block;
+}
+.aboutDiv {
+    /* border: 1px solid red; */
+    padding: 26px;
+    border-radius: 2rem 5px;
+    margin: 10px auto;
+    background-color: #e7e7e7;
+    position: relative;
+    right: 80rem;
+}
+.story{
+    animation: storyani 1s forwards ease-in-out;
+}
+@keyframes storyani {
+    0%{
+right: 80rem;
+
+    }
+    100%{
+        right: 0;
+  
+    }
+}
+.comitment {
+    animation: comitani 2s forwards ease-in-out;
+}
+@keyframes comitani {
+    0%{
+        left: 80rem;
+    }
+    30%{
+        left: 80rem;
+    }
+    100%{
+        left: 0;
+    }
+}
+
+
