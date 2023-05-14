@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Formik } from 'formik'
-import { Button, Input, TextareaAutosize } from '@mui/material'
+import { Button, Input } from '@mui/material'
 import { ToastContainer, toast, } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css';
 import './ContactUs.css'
@@ -54,7 +54,7 @@ export default function ContactUs() {
                                 <InputLabel>
                                     Enter Your Feedback
                                 </InputLabel>
-                                <TextareaAutosize type='text' placeholder='Enter Your Feed Back' onChange={HandleFeedback} row='10' />
+                                <textarea type='text' placeholder='Enter Your Feed Back' onChange={HandleFeedback} row='10' />
                             </div>
 
                             <Button variant='contained' type='submit' onClick={SendFeedback} className='button' endIcon={<SendIcon />} >

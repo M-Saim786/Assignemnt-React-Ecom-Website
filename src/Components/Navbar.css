@@ -1,7 +1,35 @@
-.navbar{
+.navbar {
     background-color: #2cd1d1 !important;
 }
-.navbar a{
+
+.navbar a {
     color: white !important;
+
+}
+
+nav ul {
+    /* border: 1px solid red !important; */
+    list-style: none;
+    display: inline-flex;
+    margin-left: 20px;
+    margin-top: 10px;
+    padding: 10px;
+}
+nav ul li{
+    /* background-color: #2cd1d1; */
+    padding: 6px 15px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+.active{
+    background-color: #03a9f4;
+
+}
+nav ul li:hover{
+    background-color: #03a9f4;
+}
+nav ul li a {
+    color: white !important;
+    text-decoration: none;
 
 }

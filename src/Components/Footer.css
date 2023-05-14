@@ -30,7 +30,7 @@ footer {
 
 
 .footDn {
-    background-color: #00cbcb;
+    background-color: #1565C0;
     height: 30vh;
     z-index: 1 !important;
     /* position: relative; */
@@ -45,8 +45,8 @@ footer {
 
 .footerUpBtn {
     /* border: 1px solid red !important; */
-    border: 1px solid aqua !important;
-    color: aqua !important;
+    border: 1px solid #5393ff !important;
+    color: #5393ff !important;
     margin: 0 20px !important;
 }
 
@@ -72,7 +72,7 @@ footer {
 }
 
 .copyrightDiv {
-    background-color: aqua;
+    background-color:#2196f3 ;
     /* text-align: center; */
     height: 10vh;
 }
@@ -81,6 +81,7 @@ footer {
     position: relative;
     left: 2rem;
     top: 20px;
+    color: white;
 }
 
 .copyrightDiv ul {
@@ -95,5 +96,6 @@ footer {
     margin: 10px ;
     padding: 10px 15px;
     border-radius: 10px;
-    background-color: #00cbcb;
+    background-color: #4dabf5;
+    color: white;
 }

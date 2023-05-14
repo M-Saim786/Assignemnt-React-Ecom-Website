@@ -1,19 +1,18 @@
 import React, { useEffect, useState } from 'react'
 import Cards from './Cards'
 import { CardMembershipOutlined } from '@mui/icons-material'
-
 export default function Home() {
     const [Data, setData] = useState([])
-    const [loading, setloading] = useState(false)
+    const [loadinger, setloadinger] = useState(false)
     useEffect(() => {
         fetch('https://fakestoreapi.com/products')
             .then((res) =>
                 res.json(), 
-                setloading(true)
+                setloadinger(true)
                 )
             .then((res) => {
                 setData(res)
-                setloading(false)
+                setloadinger(false)
 
                 // console.log(res)
             })
@@ -25,11 +24,13 @@ export default function Home() {
 
     return (
         <>
-            <div className="container">
+            <div className="container-fluid">
                 <div className="row">
+                    <h2 className='my-5'>Welcome to Our Store..!</h2>
                     {
-                        // loading == false?
-                        
+                        // loadinger == true?
+                        // <img src="https://upload.wikimedia.org/wikipedia/commons/b/b1/Loading_icon.gif?20151024034921" alt="" />
+                        // :
                         Data.map((data, index) => {
                             return (
                                 <>
