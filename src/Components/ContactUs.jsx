@@ -25,7 +25,7 @@ export default function ContactUs() {
     console.log(Feedback)
     const SendFeedback = (e) => {
         e.preventDefault()
-        Email == '' || Name == '' || Feedback == '' ? toast.warn('Please enter',{
+        Email == '' || Name == '' || Feedback == '' ? toast.warn('Please Enter Data..!',{
             hideProgressBar: true,
 
         }) : toast.success('Thanks For Your Feedback..!',{hideProgressBar: true})

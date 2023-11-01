@@ -26,7 +26,7 @@ export default function Home() {
         <>
             <div className="container-fluid">
                 <div className="row">
-                    <h2 className='my-5'>Welcome to Our Store..!</h2>
+                    <h2 className='my-5'>Welcome to Spark Store..!</h2>
                     {
                         // loadinger == true?
                         // <img src="https://upload.wikimedia.org/wikipedia/commons/b/b1/Loading_icon.gif?20151024034921" alt="" />
