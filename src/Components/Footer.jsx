@@ -24,26 +24,21 @@ export default class Footer extends Component {
                                 Create a Community
                             </Button>
                         </div>
-
-                        {/* <div className="sidestyle">
-
-               </div> */}
-
                     </div>
                     <div className="footDn">
                         <ul className='contactUs__Ul'>
                             <h4>Connect with Us</h4>
                             <li>
-                                <AiFillFacebook />
+                                <AiFillFacebook className='icon' />
                                 Facebook</li>
                             <li>
-                                <AiOutlineTwitter />
+                                <AiOutlineTwitter className='icon' />
                                 Twitter</li>
                             <li>
-                                <AiOutlineInstagram />
+                                <AiOutlineInstagram className='icon' />
                                 Instagram</li>
                             <li>
-                                <AiOutlineWhatsApp />
+                                <AiOutlineWhatsApp className='icon' />
                                 Whatsapp</li>
                         </ul>
                     </div>

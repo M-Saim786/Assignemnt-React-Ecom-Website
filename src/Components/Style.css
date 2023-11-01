@@ -1,0 +1,67 @@
+.SignUpcontainer {
+    /* border: 1px solid red; */
+    min-height: 50vh;
+    max-height: auto;
+    width: 41%;
+    margin: 4rem auto;
+    /* padding: 10px 20px; */
+    border-radius: 20px;
+    box-shadow: 0 0 6px rgba(1, 1, 1, 10);
+    text-align: center;
+    width: 45% !important;
+
+}
+
+input {
+    height: 3vh !important;
+    /* border: 1px solid red !important   ; */
+    /* width: 10% !important; */
+}
+
+.input {
+    margin-left: 10px !important;
+}
+
+.mainField {
+    margin-top: 10px !important;
+    width: 82% !important;
+}
+
+.btns {
+    width: 20%;
+    margin: 10px auto;
+}
+
+
+.loginDiv {
+    padding: 10px;
+}
+
+.Nextbtn {
+    position: absolute;
+    top: 8rem;
+    left: 23rem;
+}
+
+.uploadDocdiv {
+    padding: 10px;
+}
+
+.uploadDoc {
+    width: 35%;
+    display: block !important;
+    position: relative !important;
+    margin: 1rem auto !important;
+
+}
+
+.submitBtn {
+    position: relative;
+    left: 25rem;
+    top: 2rem;
+}
+
+table {
+    /* border: 1px solid red !important; */
+    width: 100%;
+}

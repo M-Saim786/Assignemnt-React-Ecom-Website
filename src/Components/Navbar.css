@@ -1,4 +1,5 @@
 .navbar {
+    border: 2px solid red !important;
     background-color: #2cd1d1 !important;
 }
 
@@ -7,29 +8,62 @@
 
 }
 
+nav {
+    height: 15vh;
+}
+
 nav ul {
     /* border: 1px solid red !important; */
     list-style: none;
     display: inline-flex;
     margin-left: 20px;
-    margin-top: 10px;
+    margin-top: 20px;
     padding: 10px;
 }
-nav ul li{
+
+nav ul li {
     /* background-color: #2cd1d1; */
     padding: 6px 15px;
     border-radius: 5px;
     margin-left: 5px;
 }
-.active{
+
+.active {
     background-color: #03a9f4;
 
 }
-nav ul li:hover{
+
+nav ul li:hover {
     background-color: #03a9f4;
 }
+
 nav ul li a {
     color: white !important;
     text-decoration: none;
 
+}
+
+.registerDiv {
+    /* border: 1px solid red !important; */
+    color: white !important;
+    /* float: right; */
+    position: relative;
+    left: 56rem;
+    top: -4.5rem;
+    width: 40%;
+    display: flex;
+    /* padding: 10px; */
+}
+
+.registerDiv a {
+    /* border: 1px solid white; */
+    width: 55%;
+    margin: 0px 1rem;
+}
+
+button {
+    width: 100%;
+    height: 7vh;
+    margin-left: 10px;
+    /* border: 1px solid red; */
 }

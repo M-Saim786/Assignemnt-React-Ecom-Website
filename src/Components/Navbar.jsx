@@ -151,7 +151,18 @@ export default function Navbar() {
                     </Link>
                   </li>
                 </ul>
-
+<div className="registerDiv">
+      <Link to='/login' >
+      <Button  variant='contained'>
+          Login
+      </Button>
+          </Link>
+        <Link  color='success' to='/SignUp' >
+      <Button variant='contained' color='success'>
+        SignUp
+      </Button>
+        </Link>
+</div>
               </nav>
 
           </Toolbar>
